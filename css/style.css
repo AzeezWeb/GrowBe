@@ -272,15 +272,24 @@ box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 #seo {
   padding-top: 107px;
   padding-bottom: 100px;
-  width: 945px;
+  /* width: 945px;
   height: 800px;
   background-image: url(../img/seo-img.svg);
   background-repeat: no-repeat;
   background-position:  155%;;
-  display: inline-block;
+  display: inline-block; */
+}
+.seo-img {
+  position: relative;
+}
+
+.seo-img img {
+  position: absolute;
+  left: -300px;
+  z-index: -1;
 }
 .seo-text {
-  margin-left: 200px;
+
 }
 
 .seo-title {
